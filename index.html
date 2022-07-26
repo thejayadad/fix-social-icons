@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>onhover</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+    <style>
+        body {
+            background-color: #6dccdc;
+        }
+        #container{
+        position: fixed;
+        top: 140px;
+        left: 0px;
+        padding: 0px;
+        list-style: none;
+        z-index: 1;
+        }
+        #container li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        }
+        #container li a span{
+        display: block;
+        max-width: 40px;
+        padding: 10px;
+        transition: all 0.2 ease-in-out;
+        }
+        #container li a:hover span{
+        background: rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <body>
+        <ul id="container">
+            <li><a style="background: #3C5A96" href="#"><span class="fab fa-facebook fa-2x"></span></a></li>
+            <li><a style="background: #C4302B" href="#"><span class="fab fa-youtube fa-2x"></span></a></li>
+            <li><a style="background: #1178B3" href="#"><span class="fab fa-linkedin fa-2x"></span></a></li>
+            <li><a style="background: #C8232C" href="#"><span class="fab fa-pinterest fa-2x"></span></a></li>
+            <li><a style="background: #1DADEB" href="#"><span class="fab fa-twitter fa-2x"></span></a></li>
+        </ul>
+    </body>
+</html>
